@@ -8,5 +8,5 @@ class KotlinApplication
 
 fun main(args: Array<String>) {
 	runApplication<KotlinApplication>(*args)
-	println("Hello")
+	println("Hi")
 }
