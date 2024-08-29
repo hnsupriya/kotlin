@@ -6,7 +6,8 @@ class KotlinObjectCompanionNullCheck {
             return a + b;
         }
         companion object { // static
-            val stateTax: Double = 2.1 // java ==public static final double stateTax = 2.1;
+            val stateTax: Double = 2.1// java ==public static final double stateTax = 2.1;
+            @JvmStatic
             fun greetings(): String {
                 return "hi how are you";
             }
